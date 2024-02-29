@@ -5,7 +5,7 @@ import glob
 import seaborn as sns
 
 # Memanggil fungsi read_csv
-air_quality = pd.read_csv("./dicoding_dataset-main/Air-quality-dataset/Air_Quality.csv")
+air_quality = pd.read_csv("./dataset/Air_Quality.csv")
 
 st.write('''# Selamat Datang di Dashboard Kualitas Udara 🌬️
 Halo! Siapa yang suka nafas segar? Kita semua, kan? Nah, dashboard ini adalah tempat yang tepat untuk memantau seberapa "segar" udara di sekitar kita! 🌿
